@@ -1,0 +1,41 @@
+.inner-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planetImage {
+  width: 50%;
+}
+.headingtitle {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+}
+.paradescription {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .headingtitle {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .paradescription {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .planetImage {
+    width: 100%;
+  }
+}
