@@ -4,11 +4,10 @@ import PlanetItem from '../PlanetItem'
 
 import './index.css'
 
-const PlanetsSlider = props => {
+const SimpleSlider = props => {
   const {planetsList} = props
   return (
     <div className="background-container" data-testid="planets">
-      <h1 className="heading">PLANETS</h1>
       <Slider>
         {planetsList.map(eachItem => (
           <PlanetItem eachItem={eachItem} key={eachItem.id} />
@@ -17,4 +16,10 @@ const PlanetsSlider = props => {
     </div>
   )
 }
-export default PlanetsSlider
+export default SimpleSlider
+
+/* 
+{planetsList.map(eachItem => (
+          <PlanetItem eachItem={eachItem} key={eachItem.id} />
+        ))}
+*/

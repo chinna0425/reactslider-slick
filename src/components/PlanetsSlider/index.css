@@ -1,7 +1,7 @@
 .background-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
   min-height: 100vh;
-  padding: 50px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@
   line-height: 1.2;
 }
 
-@media screen and (min-width: 768px) {
+@media screen && (min-width: 768px) {
   .heading {
     font-size: 24px;
     margin-bottom: 64px;
